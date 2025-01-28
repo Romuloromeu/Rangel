@@ -1,8 +1,7 @@
 ## Romulo Rangel
 
 **`Desenvolvedor Python`**
-
-Me chamo Rômulo Rangel Tonacio, tenho 39 anos e sou natural do Espirito Santo. Concluí o ensino médio no INEP, com o curso técnico em Python. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na CRUZEIRO DO SUL. Sou apaixonada por tecnologia.
+Me chamo Rômulo Rangel Tonacio, tenho 39 anos e sou natural do Espírito Santo. Concluí o ensino médio no INEP e realizei um curso técnico em Python pelo Senac. Atualmente, estou cursando a graduação em Análise e Desenvolvimento de Sistemas pela Universidade Cruzeiro do Sul. Sou apaixonado por tecnologia.
 
 <a href="https://github.com/Rangel?tab=repositories&sort=stargazers">
     <img 
