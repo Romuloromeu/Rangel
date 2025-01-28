@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calculadora.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="image-container">
+         <img src="black-1297034_1280.webp"class="custom-img">
+        
+    </div>
+
+
+    <h1>Calculadora</h1>
+    <br>
+
+    <p> Nesta página é possivel realizar interações matemáticas básicas.</p>
+    <br>
+
+    <label id="lValor1"> Valor 1:</label>
+    <input id="iValor1" type="text"/>
+    <br><br> 
+
+    <label class="classe"> Valor 2:</label>
+    <input id="iValor2" type="text"/>
+     <br><br>
+    <div>
+        <input type="radio" name="calc" id="soma" value="soma">   
+        <label>Soma</label>
+        <input type="radio" name="calc" id="subtracao" value="subtracao">
+        <label>Subtração</label>
+        <input type="radio" name="calc" id="multiplicacao" value="multiplicacao">
+        <label>Multiplicação</label>
+        <input type="radio" name="calc" id="divisao" value="divisao">
+        <label>Divisão</label>
+    </div>
+    <br><br>
+    <button onclick="calculadora()">Calcular</button>
+    <br><br>
+    <p id="resultado"></p>
+    <p>volte sempre</p>
+    <h3 class="classe">Obrigado</h3>
+
+    <script>
+        function calculadora() {
+            var valor1 = parseFloat(document.getElementById('iValor1').value);
+            var valor2 = parseFloat(document.getElementById('iValor2').value);
+            var operacao = document.querySelector('input[name="calc"]:checked').value;
+            var resultado;
+
+            if (operacao === 'soma') {
+                resultado = valor1 + valor2;
+            } else if (operacao === 'subtracao') {
+                resultado = valor1 - valor2;
+            } else if (operacao === 'multiplicacao') {
+                resultado = valor1 * valor2;
+            } else if (operacao === 'divisao') {
+                resultado = valor1 / valor2;
+            }
+
+            document.getElementById('resultado').innerText = 'Resultado: ' + resultado;
+        }
+    </script>
+</body>
+</html>
